@@ -1,0 +1,323 @@
+{
+  "id": "saved-parsvnath",
+  "builder_query": "Parsvnath",
+  "builder_name": "Parsvnath Developers Limited",
+  "state": "Haryana",
+  "mode": "saved",
+  "generated_at": "2026-10-20T00:00:00Z",
+  "verdict": "high",
+  "score": 8,
+  "risk_score": 34,
+  "cricket_verdict": "OUT",
+  "flags": [],
+  "projects": [
+    {
+      "name": "Parsvnath Exotica, Sector 53, Gurugram",
+      "rera_no": "RC/REP/HARERA/GGM/2018/88",
+      "original_possession": "2019-06-30",
+      "current_possession": "2024-12-31",
+      "revisions": 4,
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    },
+    {
+      "name": "Parsvnath City, Sonipat",
+      "rera_no": "RC/REP/HARERA/GGM/2018/112",
+      "original_possession": "2020-03-31",
+      "current_possession": "2023-12-31",
+      "revisions": 2,
+      "claim_ids": [
+        "c3"
+      ]
+    }
+  ],
+  "complaints": [
+    {
+      "ref": "PD/GGM/CC/2021/0233",
+      "project": "Parsvnath Exotica, Sector 53, Gurugram",
+      "filed_on": "2021-03-10",
+      "status": "pending",
+      "claim_id": "c4"
+    },
+    {
+      "ref": "PD/GGM/CC/2022/0711",
+      "project": "Parsvnath Exotica, Sector 53, Gurugram",
+      "filed_on": "2022-09-27",
+      "status": "pending",
+      "claim_id": "c5"
+    },
+    {
+      "ref": "PD/GGM/CC/2023/0150",
+      "project": "Parsvnath City, Sonipat",
+      "filed_on": "2023-04-03",
+      "status": "pending",
+      "claim_id": "c6"
+    },
+    {
+      "ref": "PD/GGM/CC/2020/0562",
+      "project": "Parsvnath City, Sonipat",
+      "filed_on": "2020-11-18",
+      "status": "resolved",
+      "claim_id": "c7"
+    }
+  ],
+  "court_records": [
+    {
+      "case_no": "CP/1184/2021",
+      "court": "NCLT New Delhi Bench",
+      "party": "Parsvnath Developers Limited",
+      "status": "pending",
+      "filed_on": "2021-08-02",
+      "claim_id": "c9",
+      "source_url": "https://services.ecourts.gov.in/ecourtindia_v6/"
+    }
+  ],
+  "registry_records": [
+    {
+      "cin": "L45201DL1990PLC040945",
+      "company_name": "PARSVNATH DEVELOPERS LIMITED",
+      "status": "Active",
+      "incorporated_on": "1990-06-15",
+      "registered_office": "Parsvnath Tower, Near Shahdara Metro Station, Shahdara, Delhi (per MCA master data)",
+      "category": "Company limited by shares / Public",
+      "claim_id": "c8",
+      "source_url": "https://www.mca.gov.in/content/mca/global/en/mca/master-data/MDS.html"
+    }
+  ],
+  "ncdrc_records": [
+    {
+      "case_no": "CC/1672/2019",
+      "forum": "NCDRC New Delhi",
+      "project": "Parsvnath Exotica, Sector 53, Gurugram",
+      "status": "pending",
+      "filed_on": "2019-10-21",
+      "claim_id": "c10",
+      "source_url": "https://e-jagriti.gov.in/"
+    },
+    {
+      "case_no": "CC/903/2022",
+      "forum": "NCDRC New Delhi",
+      "project": "Parsvnath City, Sonipat",
+      "status": "pending",
+      "filed_on": "2022-05-30",
+      "claim_id": "c11",
+      "source_url": "https://e-jagriti.gov.in/"
+    }
+  ],
+  "news": [
+    {
+      "title": "Parsvnath Exotica buyers move court over years-long possession delay",
+      "outlet": "Hindustan Times",
+      "published": "2024-02-14",
+      "tag": "delay",
+      "reason": "Buyers allege repeated missed deadlines at Parsvnath Exotica.",
+      "claim_id": "c12"
+    },
+    {
+      "title": "NCLT admits insolvency plea against Parsvnath Developers",
+      "outlet": "Business Standard",
+      "published": "2021-09-09",
+      "tag": "litigation",
+      "reason": "Reports insolvency proceedings filed against the developer.",
+      "claim_id": "c13"
+    }
+  ],
+  "brochure_diff": [
+    {
+      "field": "RERA registration",
+      "brochure_promise": "RC/REP/HARERA/GGM/2018/88",
+      "rera_filing": "RC/REP/HARERA/GGM/2018/88",
+      "verdict": "MATCH"
+    },
+    {
+      "field": "Possession date",
+      "brochure_promise": "Jun 2019",
+      "rera_filing": "Dec 2024 (4 RERA extensions)",
+      "verdict": "MISMATCH",
+      "note": "Promised possession vs 4x RERA extensions: 5.5 years late."
+    },
+    {
+      "field": "Litigation disclosure",
+      "brochure_promise": "Zero litigation",
+      "rera_filing": "3 pending RERA complaints, 2 NCDRC cases, 1 NCLT petition",
+      "verdict": "MISMATCH"
+    },
+    {
+      "field": "Promoter financial standing",
+      "brochure_promise": "Debt-free, fully funded project",
+      "rera_filing": "NCLT insolvency petition pending against promoter",
+      "verdict": "MISMATCH"
+    },
+    {
+      "field": "Amenities (clubhouse, pool)",
+      "brochure_promise": "Olympic-size pool + clubhouse",
+      "rera_filing": "Pool not shown in sanctioned plan summary",
+      "verdict": "MISMATCH",
+      "note": "Verify against sanctioned layout plan before paying."
+    }
+  ],
+  "tinyfish_traces": [
+    {
+      "api": "Search",
+      "target_url": "https://api.search.tinyfish.ai",
+      "latency_ms": 688,
+      "status": "ok",
+      "detail": "Found HRERA pages plus delay and NCLT news for \"Parsvnath\"."
+    },
+    {
+      "api": "Fetch",
+      "target_url": "https://www.haryanarera.gov.in/view_project/view_certificate/MTc5",
+      "latency_ms": 1960,
+      "status": "ok",
+      "detail": "Read the Parsvnath certificate page as clean text."
+    },
+    {
+      "api": "Web Agent",
+      "target_url": "https://haryanarera.gov.in/",
+      "latency_ms": 23180,
+      "status": "ok",
+      "detail": "Extracted 2 projects, 6 possession revisions and 4 complaints (3 pending)."
+    },
+    {
+      "api": "Browser",
+      "target_url": "https://www.mca.gov.in/content/mca/global/en/mca/master-data/MDS.html",
+      "latency_ms": 27890,
+      "status": "ok",
+      "detail": "Cloud browser session read MCA master data for CIN L45201DL1990PLC040945."
+    }
+  ],
+  "sources": [
+    {
+      "id": "rera_hr",
+      "label": "Haryana RERA",
+      "status": "ok",
+      "reason": "2 Parsvnath project registrations, extension orders and 4 complaints. Saved demo snapshot; figures are illustrative, verify on the official portal.",
+      "checked_at": "2026-10-20T00:00:00Z",
+      "url": "https://haryanarera.gov.in/"
+    },
+    {
+      "id": "news",
+      "label": "News search",
+      "status": "ok",
+      "reason": "2 relevant news items, both adverse. Saved demo snapshot; figures are illustrative, verify on the official portal.",
+      "checked_at": "2026-10-20T00:00:00Z"
+    },
+    {
+      "id": "court",
+      "label": "Court records",
+      "status": "partial",
+      "reason": "NCDRC cases via e-Jagriti; eCourts name search needs a CAPTCHA, check manually. Saved demo snapshot; figures are illustrative, verify on the official portal.",
+      "checked_at": "2026-10-20T00:00:00Z",
+      "url": "https://services.ecourts.gov.in/ecourtindia_v6/"
+    },
+    {
+      "id": "registry",
+      "label": "Company registry",
+      "status": "ok",
+      "reason": "MCA master data shows Parsvnath Developers Limited as Active. Saved demo snapshot; figures are illustrative, verify on the official portal.",
+      "checked_at": "2026-10-20T00:00:00Z",
+      "url": "https://www.mca.gov.in/content/mca/global/en/mca/master-data/MDS.html"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Haryana RERA lists Parsvnath Exotica, Sector 53, Gurugram under Parsvnath Developers Limited.",
+      "source_id": "rera_hr",
+      "source_url": "https://www.haryanarera.gov.in/view_project/view_certificate/MTc5",
+      "snippet": "Registration certificate page; contact email rera@parsvnath.com."
+    },
+    {
+      "id": "c2",
+      "text": "Parsvnath Exotica has four recorded possession extensions (Jun 2019 to Dec 2024).",
+      "source_id": "rera_hr",
+      "source_url": "https://haryanarera.gov.in/",
+      "snippet": "Original completion 30-06-2019; four HRERA extension orders; revised completion 31-12-2024."
+    },
+    {
+      "id": "c3",
+      "text": "Parsvnath City, Sonipat has two recorded possession extensions (Mar 2020 to Dec 2023).",
+      "source_id": "rera_hr",
+      "source_url": "https://haryanarera.gov.in/",
+      "snippet": "Original completion 31-03-2020; two extension orders; revised completion 31-12-2023."
+    },
+    {
+      "id": "c4",
+      "text": "A buyer complaint against Parsvnath Exotica filed Mar 2021 is pending.",
+      "source_id": "rera_hr",
+      "source_url": "https://haryanarera.gov.in/",
+      "snippet": "Complaint PD/GGM/CC/2021/0233; status: pending."
+    },
+    {
+      "id": "c5",
+      "text": "A buyer complaint against Parsvnath Exotica filed Sep 2022 is pending.",
+      "source_id": "rera_hr",
+      "source_url": "https://haryanarera.gov.in/",
+      "snippet": "Complaint PD/GGM/CC/2022/0711; status: pending."
+    },
+    {
+      "id": "c6",
+      "text": "A buyer complaint against Parsvnath City, Sonipat filed Apr 2023 is pending.",
+      "source_id": "rera_hr",
+      "source_url": "https://haryanarera.gov.in/",
+      "snippet": "Complaint PD/GGM/CC/2023/0150; status: pending."
+    },
+    {
+      "id": "c7",
+      "text": "A buyer complaint against Parsvnath City, Sonipat filed Nov 2020 is resolved.",
+      "source_id": "rera_hr",
+      "source_url": "https://haryanarera.gov.in/",
+      "snippet": "Complaint PD/GGM/CC/2020/0562; status: resolved."
+    },
+    {
+      "id": "c8",
+      "text": "MCA master data lists Parsvnath Developers Limited as an active public company, CIN L45201DL1990PLC040945.",
+      "source_id": "registry",
+      "source_url": "https://www.mca.gov.in/content/mca/global/en/mca/master-data/MDS.html",
+      "snippet": "CIN L45201DL1990PLC040945; company status: Active."
+    },
+    {
+      "id": "c9",
+      "text": "An NCLT petition CP/1184/2021 against Parsvnath Developers Limited is pending.",
+      "source_id": "court",
+      "source_url": "https://services.ecourts.gov.in/ecourtindia_v6/",
+      "snippet": "CP/1184/2021; NCLT New Delhi Bench; status: pending."
+    },
+    {
+      "id": "c10",
+      "text": "NCDRC case CC/1672/2019 concerning Parsvnath Exotica is pending.",
+      "source_id": "court",
+      "source_url": "https://e-jagriti.gov.in/",
+      "snippet": "Case CC/1672/2019; NCDRC New Delhi; status: pending."
+    },
+    {
+      "id": "c11",
+      "text": "NCDRC case CC/903/2022 concerning Parsvnath City, Sonipat is pending.",
+      "source_id": "court",
+      "source_url": "https://e-jagriti.gov.in/",
+      "snippet": "Case CC/903/2022; NCDRC New Delhi; status: pending."
+    },
+    {
+      "id": "c12",
+      "text": "Hindustan Times reported buyers moving court over Parsvnath Exotica delays.",
+      "source_id": "news",
+      "source_url": "https://www.hindustantimes.com/",
+      "snippet": "Buyers allege repeated missed possession deadlines."
+    },
+    {
+      "id": "c13",
+      "text": "Business Standard reported an NCLT insolvency plea against Parsvnath Developers.",
+      "source_id": "news",
+      "source_url": "https://www.business-standard.com/",
+      "snippet": "Insolvency proceedings filed against the developer."
+    }
+  ],
+  "summary": "Saved example: Parsvnath Developers has a high-risk public record. Parsvnath Exotica was promised for Jun 2019 and now sits at Dec 2024 after 4 RERA extensions; three RERA complaints are pending, two NCDRC cases and an NCLT petition are open, and news coverage is adverse. Trust score 34/100: OUT. Thoda ruk jao, bhai.",
+  "summary_claim_ids": [
+    "c2",
+    "c4",
+    "c9"
+  ]
+}

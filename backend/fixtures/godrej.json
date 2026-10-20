@@ -1,0 +1,262 @@
+{
+  "id": "saved-godrej",
+  "builder_query": "Godrej",
+  "builder_name": "Godrej Properties Limited",
+  "state": "Haryana",
+  "mode": "saved",
+  "generated_at": "2026-10-20T00:00:00Z",
+  "verdict": "medium",
+  "score": 3,
+  "risk_score": 62,
+  "cricket_verdict": "DRS",
+  "flags": [],
+  "projects": [
+    {
+      "name": "Godrej Nature Plus (Phase-I)",
+      "rera_no": "HRERA-2018/1394/265",
+      "original_possession": "2021-12-31",
+      "current_possession": "2023-06-30",
+      "revisions": 2,
+      "claim_ids": [
+        "c1",
+        "c2"
+      ]
+    },
+    {
+      "name": "Godrej Meridien, Sector 106, Gurugram",
+      "rera_no": "RC/REP/HARERA/GGM/2018/205",
+      "original_possession": "2022-03-31",
+      "current_possession": "2022-03-31",
+      "revisions": 0,
+      "claim_ids": [
+        "c3"
+      ]
+    }
+  ],
+  "complaints": [
+    {
+      "ref": "GR/GGM/CC/2022/0418",
+      "project": "Godrej Nature Plus (Phase-I)",
+      "filed_on": "2022-07-19",
+      "status": "pending",
+      "claim_id": "c4"
+    },
+    {
+      "ref": "GR/GGM/CC/2023/0092",
+      "project": "Godrej Nature Plus (Phase-I)",
+      "filed_on": "2023-02-08",
+      "status": "pending",
+      "claim_id": "c5"
+    }
+  ],
+  "court_records": [],
+  "registry_records": [
+    {
+      "cin": "L74120MH1985PLC035308",
+      "company_name": "GODREJ PROPERTIES LIMITED",
+      "status": "Active",
+      "incorporated_on": "1985-01-23",
+      "registered_office": "Godrej One, Pirojshanagar, Vikhroli (East), Mumbai (per MCA master data)",
+      "category": "Company limited by shares / Public",
+      "claim_id": "c6",
+      "source_url": "https://www.mca.gov.in/content/mca/global/en/mca/master-data/MDS.html"
+    }
+  ],
+  "ncdrc_records": [
+    {
+      "case_no": "CC/412/2023",
+      "forum": "State Consumer Disputes Redressal Commission, Haryana",
+      "project": "Godrej Nature Plus (Phase-I)",
+      "status": "pending",
+      "filed_on": "2023-05-16",
+      "claim_id": "c7",
+      "source_url": "https://e-jagriti.gov.in/"
+    }
+  ],
+  "news": [
+    {
+      "title": "Godrej Properties buyers in Sohna flag delay in Nature Plus handover",
+      "outlet": "Hindustan Times",
+      "published": "2023-04-11",
+      "tag": "delay",
+      "reason": "Homebuyers allege the Nature Plus possession slipped past the originally promised date.",
+      "claim_id": "c8"
+    },
+    {
+      "title": "Godrej Properties posts strong bookings, sees Gurugram launches ahead",
+      "outlet": "Mint",
+      "published": "2026-07-30",
+      "tag": "neutral",
+      "reason": "Business results coverage; no adverse allegation.",
+      "claim_id": "c9"
+    }
+  ],
+  "brochure_diff": [
+    {
+      "field": "RERA registration",
+      "brochure_promise": "HRERA-2018/1394/265",
+      "rera_filing": "HRERA-2018/1394/265",
+      "verdict": "MATCH"
+    },
+    {
+      "field": "Possession date",
+      "brochure_promise": "Dec 2021",
+      "rera_filing": "Jun 2023 (2 revisions filed)",
+      "verdict": "MISMATCH",
+      "note": "Two RERA-approved extensions after the brochure date."
+    },
+    {
+      "field": "Litigation disclosure",
+      "brochure_promise": "No litigation",
+      "rera_filing": "2 pending RERA complaints + 1 consumer commission case",
+      "verdict": "MISMATCH"
+    },
+    {
+      "field": "Promoter entity",
+      "brochure_promise": "Godrej Properties Limited",
+      "rera_filing": "Godrej Highview LLP (project SPV)",
+      "verdict": "MATCH",
+      "note": "Project SPV is a Godrej Properties subsidiary; confirm in agreement."
+    },
+    {
+      "field": "Amenities (clubhouse, pool)",
+      "brochure_promise": "Clubhouse + pool",
+      "rera_filing": "Listed in sanctioned plan summary",
+      "verdict": "MATCH"
+    }
+  ],
+  "tinyfish_traces": [
+    {
+      "api": "Search",
+      "target_url": "https://api.search.tinyfish.ai",
+      "latency_ms": 705,
+      "status": "ok",
+      "detail": "Found Godrej Nature Plus RERA page and delay coverage."
+    },
+    {
+      "api": "Fetch",
+      "target_url": "https://haryanarera.gov.in/view_project/view_certificate/Njkx",
+      "latency_ms": 2105,
+      "status": "ok",
+      "detail": "Read the Nature Plus registration certificate."
+    },
+    {
+      "api": "Web Agent",
+      "target_url": "https://haryanarera.gov.in/",
+      "latency_ms": 21370,
+      "status": "ok",
+      "detail": "Extracted 2 Godrej projects, 2 possession revisions and 2 pending complaints."
+    },
+    {
+      "api": "Browser",
+      "target_url": "https://www.mca.gov.in/content/mca/global/en/mca/master-data/MDS.html",
+      "latency_ms": 26540,
+      "status": "ok",
+      "detail": "Cloud browser session read MCA master data for CIN L74120MH1985PLC035308."
+    }
+  ],
+  "sources": [
+    {
+      "id": "rera_hr",
+      "label": "Haryana RERA",
+      "status": "ok",
+      "reason": "2 Godrej project registrations and 2 complaints. Saved demo snapshot; figures are illustrative, verify on the official portal.",
+      "checked_at": "2026-10-20T00:00:00Z",
+      "url": "https://haryanarera.gov.in/"
+    },
+    {
+      "id": "news",
+      "label": "News search",
+      "status": "ok",
+      "reason": "2 relevant news items, 1 tagged delay. Saved demo snapshot; figures are illustrative, verify on the official portal.",
+      "checked_at": "2026-10-20T00:00:00Z"
+    },
+    {
+      "id": "court",
+      "label": "Court records",
+      "status": "partial",
+      "reason": "Consumer commission case via e-Jagriti; eCourts name search needs a CAPTCHA, check manually. Saved demo snapshot; figures are illustrative, verify on the official portal.",
+      "checked_at": "2026-10-20T00:00:00Z",
+      "url": "https://services.ecourts.gov.in/ecourtindia_v6/"
+    },
+    {
+      "id": "registry",
+      "label": "Company registry",
+      "status": "ok",
+      "reason": "MCA master data shows Godrej Properties Limited as Active. Saved demo snapshot; figures are illustrative, verify on the official portal.",
+      "checked_at": "2026-10-20T00:00:00Z",
+      "url": "https://www.mca.gov.in/content/mca/global/en/mca/master-data/MDS.html"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Haryana RERA's certificate names Godrej Nature Plus (Phase-I), developed by Godrej Highview LLP, in Sector 33, Sohna, Gurugram.",
+      "source_id": "rera_hr",
+      "source_url": "https://haryanarera.gov.in/view_project/view_certificate/Njkx",
+      "snippet": "Registration certificate for Godrej Nature Plus (Phase-I), developed by Godrej Highview LLP, Sector 33, Sohna, Gurugram."
+    },
+    {
+      "id": "c2",
+      "text": "Godrej Nature Plus (Phase-I) has two recorded possession date revisions (Dec 2021 to Jun 2023).",
+      "source_id": "rera_hr",
+      "source_url": "https://haryanarera.gov.in/",
+      "snippet": "Original completion date 31-12-2021; revised completion date 30-06-2023 after two extensions."
+    },
+    {
+      "id": "c3",
+      "text": "Haryana RERA lists Godrej Meridien, Sector 106, Gurugram with no date revisions.",
+      "source_id": "rera_hr",
+      "source_url": "https://haryanarera.gov.in/",
+      "snippet": "Registered project: Godrej Meridien, Sector 106; completion date unchanged."
+    },
+    {
+      "id": "c4",
+      "text": "A buyer complaint against Godrej Nature Plus (Phase-I), filed Jul 2022, is pending before Haryana RERA.",
+      "source_id": "rera_hr",
+      "source_url": "https://haryanarera.gov.in/",
+      "snippet": "Complaint GR/GGM/CC/2022/0418; status: pending."
+    },
+    {
+      "id": "c5",
+      "text": "A second buyer complaint against Godrej Nature Plus (Phase-I), filed Feb 2023, is pending.",
+      "source_id": "rera_hr",
+      "source_url": "https://haryanarera.gov.in/",
+      "snippet": "Complaint GR/GGM/CC/2023/0092; status: pending."
+    },
+    {
+      "id": "c6",
+      "text": "MCA master data lists Godrej Properties Limited as an active public company, CIN L74120MH1985PLC035308.",
+      "source_id": "registry",
+      "source_url": "https://www.mca.gov.in/content/mca/global/en/mca/master-data/MDS.html",
+      "snippet": "CIN L74120MH1985PLC035308; company status: Active."
+    },
+    {
+      "id": "c7",
+      "text": "A consumer commission case CC/412/2023 concerning Godrej Nature Plus (Phase-I) is pending.",
+      "source_id": "court",
+      "source_url": "https://e-jagriti.gov.in/",
+      "snippet": "Case CC/412/2023; Haryana State Commission; status: pending."
+    },
+    {
+      "id": "c8",
+      "text": "Hindustan Times reported homebuyer complaints about Nature Plus possession delay.",
+      "source_id": "news",
+      "source_url": "https://www.hindustantimes.com/",
+      "snippet": "Buyers allege Nature Plus handover slipped past the originally promised date."
+    },
+    {
+      "id": "c9",
+      "text": "Mint reported strong 2026 bookings for Godrej Properties.",
+      "source_id": "news",
+      "source_url": "https://www.livemint.com/",
+      "snippet": "Coverage of bookings and launches; no adverse allegation."
+    }
+  ],
+  "summary": "Saved example: Godrej Properties has a mixed record. Nature Plus (Phase-I) moved its possession date twice (Dec 2021 to Jun 2023) and carries two pending RERA complaints plus a consumer commission case; Meridien shows no changes. The MCA record is active. Trust score 62/100: DRS, review documents before paying.",
+  "summary_claim_ids": [
+    "c2",
+    "c4",
+    "c6"
+  ]
+}

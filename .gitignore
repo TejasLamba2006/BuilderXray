@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.next/
+out/
+frontend/.next/
+frontend/out/
+frontend/next-env.d.ts.tmp
+*.tsbuildinfo
+backend/data/reports/*.json
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.omc/
+.vercel/

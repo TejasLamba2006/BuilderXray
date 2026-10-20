@@ -1,0 +1,225 @@
+{
+  "id": "saved-dlf",
+  "builder_query": "DLF",
+  "builder_name": "DLF Limited",
+  "state": "Haryana",
+  "mode": "saved",
+  "generated_at": "2026-10-20T00:00:00Z",
+  "verdict": "low",
+  "score": 1,
+  "risk_score": 78,
+  "cricket_verdict": "NOT OUT",
+  "flags": [],
+  "projects": [
+    {
+      "name": "Independent Floors at DLF City Phase IV",
+      "rera_no": "RC/REP/HARERA/GGM/2018/57",
+      "original_possession": "2019-12-31",
+      "current_possession": "2019-12-31",
+      "revisions": 0,
+      "claim_ids": [
+        "c1"
+      ]
+    },
+    {
+      "name": "DLF Skycourt, Sector 86, Gurugram",
+      "rera_no": "RC/REP/HARERA/GGM/2018/131",
+      "original_possession": "2022-06-30",
+      "current_possession": "2022-12-31",
+      "revisions": 1,
+      "claim_ids": [
+        "c2",
+        "c3"
+      ]
+    },
+    {
+      "name": "DLF The Ultima, Sector 81, Gurugram",
+      "rera_no": "RC/REP/HARERA/GGM/2018/163",
+      "original_possession": "2023-09-30",
+      "current_possession": "2023-09-30",
+      "revisions": 0,
+      "claim_ids": [
+        "c4"
+      ]
+    }
+  ],
+  "complaints": [],
+  "court_records": [],
+  "registry_records": [
+    {
+      "cin": "L70101HR1963PLC002484",
+      "company_name": "DLF LIMITED",
+      "status": "Active",
+      "incorporated_on": "1963-08-26",
+      "registered_office": "DLF Centre, Sansad Marg, New Delhi (per MCA master data)",
+      "category": "Company limited by shares / Public",
+      "claim_id": "c5",
+      "source_url": "https://www.mca.gov.in/content/mca/global/en/mca/master-data/MDS.html"
+    }
+  ],
+  "ncdrc_records": [],
+  "news": [
+    {
+      "title": "DLF reports record pre-sales as Gurugram luxury launches sell out",
+      "outlet": "Business Standard",
+      "published": "2026-08-12",
+      "tag": "neutral",
+      "reason": "Sales and launch coverage; no delay, fraud or litigation allegation.",
+      "claim_id": "c6"
+    },
+    {
+      "title": "DLF Skycourt towers get fresh possession timeline from HRERA filing",
+      "outlet": "The Economic Times",
+      "published": "2026-03-04",
+      "tag": "neutral",
+      "reason": "Reports a single possession extension that matches the RERA record.",
+      "claim_id": "c3"
+    }
+  ],
+  "brochure_diff": [
+    {
+      "field": "RERA registration",
+      "brochure_promise": "RC/REP/HARERA/GGM/2018/131 (Skycourt)",
+      "rera_filing": "RC/REP/HARERA/GGM/2018/131",
+      "verdict": "MATCH"
+    },
+    {
+      "field": "Possession date",
+      "brochure_promise": "Jun 2022",
+      "rera_filing": "Dec 2022 (1 revision filed)",
+      "verdict": "MISMATCH",
+      "note": "One RERA-approved extension; brochure date predates it."
+    },
+    {
+      "field": "Promoter entity",
+      "brochure_promise": "DLF Limited group company",
+      "rera_filing": "DLF Limited (CIN L70101HR1963PLC002484)",
+      "verdict": "MATCH"
+    },
+    {
+      "field": "Litigation disclosure",
+      "brochure_promise": "No major litigation",
+      "rera_filing": "No pending HRERA / NCDRC complaints found",
+      "verdict": "MATCH"
+    },
+    {
+      "field": "Amenities (clubhouse, pool)",
+      "brochure_promise": "Clubhouse + swimming pool",
+      "rera_filing": "Listed in sanctioned plan summary",
+      "verdict": "MATCH"
+    }
+  ],
+  "tinyfish_traces": [
+    {
+      "api": "Search",
+      "target_url": "https://api.search.tinyfish.ai",
+      "latency_ms": 612,
+      "status": "ok",
+      "detail": "Located HRERA project pages and DLF news for \"DLF Limited\"."
+    },
+    {
+      "api": "Fetch",
+      "target_url": "https://haryanarera.gov.in/view_project/project_preview_open/1674",
+      "latency_ms": 1840,
+      "status": "ok",
+      "detail": "Read the project registration page as clean text."
+    },
+    {
+      "api": "Web Agent",
+      "target_url": "https://haryanarera.gov.in/",
+      "latency_ms": 18420,
+      "status": "ok",
+      "detail": "Walked the HRERA project list, extracted 3 DLF projects with possession dates."
+    },
+    {
+      "api": "Browser",
+      "target_url": "https://www.mca.gov.in/content/mca/global/en/mca/master-data/MDS.html",
+      "latency_ms": 24310,
+      "status": "ok",
+      "detail": "Cloud browser session read MCA master data for CIN L70101HR1963PLC002484."
+    }
+  ],
+  "sources": [
+    {
+      "id": "rera_hr",
+      "label": "Haryana RERA",
+      "status": "ok",
+      "reason": "3 DLF project registrations. Saved demo snapshot; figures are illustrative, verify on the official portal.",
+      "checked_at": "2026-10-20T00:00:00Z",
+      "url": "https://haryanarera.gov.in/"
+    },
+    {
+      "id": "news",
+      "label": "News search",
+      "status": "ok",
+      "reason": "2 relevant news items, none adverse. Saved demo snapshot; figures are illustrative, verify on the official portal.",
+      "checked_at": "2026-10-20T00:00:00Z"
+    },
+    {
+      "id": "court",
+      "label": "Court records",
+      "status": "not_checked",
+      "reason": "eCourts name search needs a CAPTCHA; open the official portal to check manually.",
+      "checked_at": null,
+      "url": "https://services.ecourts.gov.in/ecourtindia_v6/"
+    },
+    {
+      "id": "registry",
+      "label": "Company registry",
+      "status": "ok",
+      "reason": "MCA master data shows DLF Limited as Active. Saved demo snapshot; figures are illustrative, verify on the official portal.",
+      "checked_at": "2026-10-20T00:00:00Z",
+      "url": "https://www.mca.gov.in/content/mca/global/en/mca/master-data/MDS.html"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Haryana RERA's project record names Independent Floors at DLF City Phase IV in Gurugram.",
+      "source_id": "rera_hr",
+      "source_url": "https://www.haryanarera.gov.in/view_project/project_preview_open/1674",
+      "snippet": "Name of the project: INDEPENDENT FLOORS AT DLF CITY PHASE IV; address: DLF City Phase IV, Gurugram, Haryana."
+    },
+    {
+      "id": "c2",
+      "text": "Haryana RERA lists DLF Skycourt, Sector 86, Gurugram as a registered DLF project.",
+      "source_id": "rera_hr",
+      "source_url": "https://haryanarera.gov.in/",
+      "snippet": "Registered project: DLF Skycourt, Sector 86, Gurugram. Promoter: DLF Limited."
+    },
+    {
+      "id": "c3",
+      "text": "DLF Skycourt has one recorded possession date revision (Jun 2022 to Dec 2022).",
+      "source_id": "rera_hr",
+      "source_url": "https://haryanarera.gov.in/",
+      "snippet": "Original completion date 30-06-2022; revised completion date 31-12-2022."
+    },
+    {
+      "id": "c4",
+      "text": "Haryana RERA lists DLF The Ultima, Sector 81, Gurugram with no date revisions.",
+      "source_id": "rera_hr",
+      "source_url": "https://haryanarera.gov.in/",
+      "snippet": "Registered project: DLF The Ultima, Sector 81, Gurugram; completion date unchanged."
+    },
+    {
+      "id": "c5",
+      "text": "MCA master data lists DLF Limited as an active public company, CIN L70101HR1963PLC002484.",
+      "source_id": "registry",
+      "source_url": "https://www.mca.gov.in/content/mca/global/en/mca/master-data/MDS.html",
+      "snippet": "CIN L70101HR1963PLC002484; company status: Active."
+    },
+    {
+      "id": "c6",
+      "text": "Business Standard reported record pre-sales for DLF in 2026.",
+      "source_id": "news",
+      "source_url": "https://www.business-standard.com/",
+      "snippet": "Coverage of DLF launch sell-outs; no adverse allegation."
+    }
+  ],
+  "summary": "Saved example: DLF Limited shows a clean public-record trail. Three Haryana RERA registrations, one possession extension (DLF Skycourt, Jun to Dec 2022), no pending complaints, no adverse news, and an active MCA record. Trust score 78/100: NOT OUT.",
+  "summary_claim_ids": [
+    "c1",
+    "c3",
+    "c5"
+  ]
+}
