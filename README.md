@@ -4,6 +4,8 @@
 
 Built by **Team Hardcoders** (**Tejas Lamba** and **Kanishka Das**) for **Kritical Hacks 2026, IGDTUW Delhi (AI/ML Track)**.
 
+**Live demo:** https://builderxray.vercel.app  |  **Repo:** https://github.com/TejasLamba2006/BuilderXray
+
 **BuilderXray** is an AI web-agent due-diligence engine powered by **TinyFish**. Give it one real-estate builder name or RERA number. It dispatches parallel web agents across **6 API-less Indian government and legal portals**. In about **90 seconds** it compiles an evidence-linked **0-100 Cricket Scorecard** and a **Brochure-vs-RERA "Doglapan Detector"** report. Every claim links to the government URL it came from.
 
 ---

@@ -54,6 +54,9 @@ def _write_env_value(key: str, value: str | None):
 @app.get('/api/health')
 def health(): return {'status':'ok','service':'BuilderXray'}
 
+@app.get('/api/status')
+def status(): return {'status':'ok','demo_mode':os.environ.get('DEMO_MODE','auto'),'live_configured':bool(os.environ.get('TINYFISH_API_KEY')),'reports':len(jobs.reports)}
+
 @app.get('/api/settings/tinyfish')
 def tinyfish_settings(request: Request):
     _require_local_settings(request, check_origin=False)

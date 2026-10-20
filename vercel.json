@@ -6,6 +6,9 @@
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api/index.py" },
     { "source": "/report/:id", "destination": "/report/saved-dlf.html" },
-    { "source": "/run/:id", "destination": "/run/demo.html" }
+    { "source": "/run/:id", "destination": "/run/demo.html" },
+    { "source": "/pricing", "destination": "/pricing.html" },
+    { "source": "/method", "destination": "/method.html" },
+    { "source": "/settings", "destination": "/settings.html" }
   ]
 }
